@@ -1,63 +1,292 @@
 Please answer the below core-java Questions:
 
 What is programing language?
-A.
-
-
+A. Programing language is a formal system of rules and syntax used to instruct a
+   computer to perform specific tasks or operations. These languages are used to
+   develop software.
 
 
 What jdk contains or composed of and define each components?
-A.
+A. The Java Development Kit (JDK) is a software package that contains tools,
+   executables, and libraries necessary for developing, compiling, and running
+   Java applications. The JDK consists of several components, each with a specific
+   role in the Java development process. Here are the main components of the JDK:
+   1. Java Compiler (javac): This is the Java source code compiler that translates your
+      human-readable Java source code into bytecode, which is executed by the Java Virtual Machine (JVM).
 
+   2. Java Runtime Environment (JRE): The JRE contains the Java Virtual Machine (JVM) and the Java Class Library.
+      It is necessary for running Java applications on a computer.
 
+   3. Java Virtual Machine (JVM): The JVM is an integral part of the JDK and JRE. It is responsible for executing
+      Java bytecode on the target platform.
+
+  4. Java API (Application Programming Interface): The Java Class Library, also known as the Java API, is a vast
+     collection of pre-compiled classes and methods that provide core functionality for Java applications.
+
+  5. Development Tools: The JDK includes various development tools that assist in the development process.
+
+  6. JavaFX (Optional): Starting with JDK 11, JavaFX is no longer bundled with the JDK, but it can still be
+     obtained separately for building Java desktop applications with rich user interfaces.
+
+  7. Java Mission Control (JMC) (Optional): JMC is a profiling and monitoring tool for Java applications.
+     It provides insights into the runtime behavior and performance of Java applications. JMC is typically available
+     as an optional feature in some JDK distributions.
 
 
 
 What is IDE?
-A.
+A. IDE stands for Integrated Development Environment. It is a software application or platform that provides
+   comprehensive tools and features to assist developers in creating software applications. IDEs are designed to
+   streamline the software development process by offering a unified and cohesive environment for writing, testing,
+   debugging, and deploying code.
 
 
 
 What are the IDEs available in the market to support java?
-A.
+A. As of my last knowledge update in September 2021, there were several popular Integrated Development Environments
+   (IDEs) available in the market for Java development. Please note that the landscape of IDEs may have changed since
+   then, so it's a good idea to check for the latest updates.
 
 
 
 Explain the entire java life cycle.
 what is class?
+  Class is a blueprint or template for creating objects. It defines a set of attributes and methods
+
 What is object?
+  Object typically refers to an instance of a class in an object-oriented programming (OOP) language.
+
 What is the entry point of an application?
+  The entry point of an application is the specific point in a software program where its execution begins.
+  It is the first piece of code that gets executed when you run the application.
+
 Why main is static?
+  The main function serves as the entry point of a program. When the program is executed, the operating system
+  or runtime environment looks for the main function to start the program's execution.
+
 Which class is the superclass of all classes?
+  In the Java programming language, the superclass of all classes is the Object class. The Object class is
+  at the top of the class hierarchy and serves as the root class for all other classes in Java. Every class
+  in Java is either directly or indirectly derived from the Object class, which means that the Object class
+  is the ultimate ancestor of all Java classes.
+
+
 What is difference between path and classpath variables?
+  Path and classpath are both environment variables used in software development and execution,
+  but they serve different purposes in different contexts. The PATH variable is used primarily in operating
+  systems like Windows, Linux, and macOS, while the CLASSPATH variable is used in the context of Java development.
+
+
 What is the difference between an Interface and Abstract class?
-Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
+  In object-oriented programming, both interfaces and abstract classes are used to define blueprints for classes,
+  but they serve different purposes and have distinct characteristics. Here are the key differences between interfaces
+  and abstract classes. An interface is a contract that defines a set of methods or properties that a class must
+  implement, while an abstract class is a class that cannot be instantiated on its own and may contain a mix of
+  implemented and abstract methods or properties.
+
+
+Can you make an Object from an Interface and Abstract class ? if not how do you use it?
+  In many programming languages, I cannot directly create an object from an interface or an abstract class because
+  they are incomplete by design. However, I can create objects from classes that implement the interface or extend
+  the abstract class. I cannot create objects directly from an interface, but I can create objects of classes
+  that implement the interface. While an abstract class is a class that cannot be instantiated on its own, but
+  I can create objects of classes that extend the abstract class.
+
+
 what is Access Specifier?
+  An access specifier is a concept in object-oriented programming that defines the visibility and accessibility
+  of class members within a class or from external code. Access specifiers are used to control how these members
+  can be accessed and modified.
+
+
 What is OOP ? Define each feature of java OOP.
+  OOP stands for Object-Oriented Programming, that organizes and structures code around the concept of objects.
+  Objects are instances of classes. Here are the key features of OOP in Java:
+  1. Classes and Objects: Classes are the blueprints or templates for creating objects. Objects are instances
+     of classes
+  2. Encapsulation: Encapsulation is the concept of bundling data and methods that operate on that data into
+     a single unit, which is the class.
+  3. Inheritance: Inheritance allows a class to inherit properties and behaviors from another class.
+  4. Polymorphism: Polymorphism means "many forms" and allows objects of different classes to be treated as
+     objects of a common superclass.
+  5. Abstraction: Abstraction is the process of simplifying complex reality by modeling classes based on their
+     essential properties and behaviors
+  6. Modularity: Modularity in OOP is achieved by breaking down a program into smaller, self-contained modules or
+     classes. Each class represents a specific functionality.
+  7. Constructor: Constructors are special methods used to initialize objects when they are created.
+  8. Destructor (Implicit Garbage Collection): JAVA has a garbage collector that automatically reclaims memory
+     by destroying objects that are no longer referenced.
+  9. Message Passing: In OOP, objects communicate with each other by sending messages. A message is a request for
+     an object to perform a specific action.
+
+
 What is Java Package and which package is imported by default?
+  Java package is a way to organize classes and interfaces into a hierarchical structure, which helps in managing
+  and organizing code in larger projects. Packages provide a means to group related classes and prevent naming
+  conflicts. As for the default package in Java, there isn't really a specific package that is imported by default
+  for your own classes. However, all Java classes are part of the default package if you do not explicitly declare
+  package for your classes.
+
+
 What is API? Name list of API that you have used so far.
+  API stands for Application Programming Interface. It is a set of rules and protocols that allow different software
+  applications to communicate with each other. Here are the lists of API that I have used so far:
+  1. Google Maps API: Used for integrating Google Maps into applications.
+  2. YouTube API: Used to integrate YouTube videos and features into applications.
+  3. GitHub API: Allows developers to interact with GitHub repositories and user data.
+  4. Facebook Graph API: Provides access to Facebook's social graph data
+  5. Microsoft Azure API: Provides access to various Microsoft Azure cloud services.
+  6. Slack API: Used to integrate Slack messaging and collaboration features.
+  7. LinkedIn API: Provides access to LinkedIn's professional network and user data.
+  8. Zoom API: Allows integration with Zoom video conferencing services
+
 Does java support multiple inheritance, explain why or why not?
+  No, Java does not support multiple inheritance through classes, but it does support a limited form of multiple
+  inheritance through interfaces. This design decision was made to avoid the complexity and ambiguity that can
+  arise from full multiple inheritance.
+
+  
 What is method overloading and when it happens?
+  Method overloading is a concept in object-oriented programming where you can define multiple methods
+  in a class with the same name but with different parameters.
+  Method overloading happens when a class has multiple methods with the same name but different method signatures
+  The method signature includes the method's name and the number, type, and order of its parameters.
+
+
 Explain exceptions in java and how to handle it.
+  In Java, exceptions are events that occur during the execution of a program that disrupts the normal flow
+  of the program. These exceptions can be caused by various reasons, such as invalid input, division by zero,
+  file not found, and so on.
+  Exception Handling in Java involves four main components
+  try {
+      // Risky code that may throw an exception
+  } catch (ExceptionType1 e1) {
+      // Handle ExceptionType1
+  } catch (ExceptionType2 e2) {
+      // Handle ExceptionType2
+  } finally {
+      // Optional: Code that always gets executed, whether there is an exception or not.
+
+
 What is static keyword in java? How it has been used in variables and methods ?
+  In Java, the static keyword is used to create class-level members, including variables and methods.
+  Here's how static is used in variables and methods in Java.
+  Static Variables (Class Variables): A static variable, also known as a class variable, is declared using
+  the static keyword within a class.
+  Static Methods: A static method is declared using the static keyword in the method signature.
+
+
 What is final and how it has been used variables and methods?
+  In computer programming, the term "final" is used to indicate that a variable, method, or class should not be
+  modified after it has been defined or initialized.
+  Final Variables: In Java: When a variable is declared as "final" in Java, it means that the variable's value
+  cannot be changed once it is assigned a value.
+  Final Methods: In Java: When a method is declared as "final" in a Java class, it means that it cannot be
+  overridden by any subclass.
+
+
 What is final, finally and finalize?
+  final," "finally," and "finalize" are three related terms in the context of programming and language semantics,
+  but they have different meanings and usage.
+  Final: Final is an adjective used to describe something that is last, concluding, or ultimate in a series or sequence.
+  Finally: Finally is an adverb used to indicate the last in a series of events or actions, or to express that
+  something is happening after a long wait or delay.
+  Finalize: Finalize is a verb that means to complete, conclude, or bring something to its final state or form.
+
+
 What is a constructor ?
+  A constructor is a special method or function in object-oriented programming (OOP) that is used to initialize
+  and set up the initial state of an object when an instance of a class is created.
+
+
 Can we have multiple constructors in a class?
+  Yes, you can have multiple constructors in a class in many programming languages. These are known as overloads
+  constructors. Overloaded constructors allow you to create objects of the same class with different sets of
+  initial values or parameters.
+
+
 If we don't have a constructor declared, what is called during the object creation?
+  In most object-oriented programming languages, if you don't explicitly declare a constructor for a class
+  a default constructor is provided by the language itself.
+
+
 What is "this" keyword in java ?
+  In Java, the "this" keyword is a reference to the current instance of the class in which it is used.
+  It can be used to access instance variables, instance methods, or to invoke one constructor from another
+  within the same class.
+
+
 What is "super" keyword in java? How many possible way can you use?
+  In Java, the super keyword is used to refer to the immediate parent class of a subclass.
+  It can be used in several ways to access members and constructors of the superclass. I can use super to
+  access the super class's fields, methods, or constructors from within a subclass. I can use super to invoke
+  constructors of the superclass. This is useful when the subclass constructor needs to initialize the
+  superclass part of the object. You can also use super to call a method defined in the superclass, even if
+  it is overridden in the subclass.
+
+
 What is JVM stand for ?
+  JVM stands for Java Virtual Machine. It is an integral part of the Java Runtime Environment.
+
+
 Is JVM platform independent?
+  Yes, the Java Virtual Machine (JVM) is designed to be platform-independent. It allows Java programs to be
+  written once and run on any platform that has a compatible JVM implementation.
+
+
 What version of java are you using?
+
+
 What is JAR stand for ?
+  JAR stands for Java Archive. It is a file format used in the Java programming language to package and
+  distribute collections of Java class files.
+
+
 What is the difference between JDK and JVM?
+  JDK (Java Development Kit) and JVM (Java Virtual Machine) are two fundamental components of the Java
+  programming platform, but they serve different purposes and have distinct roles in the Java ecosystem.
+  JDK is a software development kit provided by Oracle for developing Java applications.
+  JVM is a runtime environment that executes Java bytecode.
+
+
 What is the difference between JVM and JRE?
+  JVM (Java Virtual Machine) and JRE (Java Runtime Environment) are both important components in the Java
+  programming ecosystem, but they serve different purposes.
+  The JVM is a crucial part of the Java platform. It is a virtual machine that executes Java bytecode.
+  The JRE is a software package that includes the JVM along with essential libraries and resources required
+  for running Java applications.
+
+
 What is compile time and run time?
+  Compile time and run time are two phases in the lifecycle of a computer program, and they refer to when
+  specific tasks and processes occur during the execution of a program.
+  Compile time refers to the phase during which a program is translated from its human-readable source code.
+  Run time (or runtime) refers to the period when a compiled program is executed or run on a computer.
+
+
 What is heap?
+  A heap is a data structure used in computer science and programming for efficiently managing and organizing
+  data. It is a special type of binary tree known as a binary heap, and it has some key properties that make
+  it useful in various applications, particularly in implementing priority queues.
+
+
 How java manage it's memory?
+  Java manages its memory through a combination of techniques, including automatic memory management and
+  a system known as the Java Virtual Machine (JVM).
+
+
 What is the difference between String, StringBuffer and StringBuilder?
+  Once a String object is created, its value cannot be changed. Any operation that appears to modify
+  a String actually creates a new String object.
+  StringBuffer is a thread-safe, mutable sequence of characters. You can modify the content of a
+  StringBuffer without creating new objects, making it more efficient when frequent string manipulation
+  is needed in a multi-threaded environment.
+  Similar to StringBuffer, StringBuilder is also a mutable sequence of characters, but it is not synchronized.
+
+
 What is Singleton class?
+
+
 What is Serialization and Deserialization?
 when to use transient variable in java?
 Difference between while and do..while loop?
