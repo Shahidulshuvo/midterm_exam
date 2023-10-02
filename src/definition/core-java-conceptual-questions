@@ -285,14 +285,45 @@ What is the difference between String, StringBuffer and StringBuilder?
 
 
 What is Singleton class?
+  A Singleton class is a design pattern in software engineering that restricts the instantiation
+  of a class to only one instance and provides a global point of access to that instance.
+  In other words, it ensures that there is only a single instance of the class in the system,
+  and it provides a way to access that instance from anywhere in the code.
 
 
 What is Serialization and Deserialization?
+  Serialization and deserialization are processes used in computer science and software engineering to
+  transform data into a format that can be easily stored, transmitted, or reconstructed in a different
+  context, typically for the purpose of data persistence or communication between different systems or
+  components.
+
+
 when to use transient variable in java?
+  In Java, the transient keyword is used to indicate that a variable should not be serialized when
+  an object is converted into a byte stream, typically for the purpose of saving an object's state or
+  transmitting it over a network.
+
+
 Difference between while and do..while loop?
+  While and do...while loops are two common types of loops in programming, and they both serve the
+  purpose of repeating a block of code multiple times as long as a certain condition is met.
+
+
 What is Enum?
+  An enum, short for "enumeration," is a data type in computer programming that is used to
+  define a set of named constant values. These constant values are typically used to represent a
+  finite, well-defined list of options, states, or categories within a program.
+
+
 What is Iterator?
+  An iterator is a programming concept and a design pattern that provides a way to access the
+  elements of a collection sequentially without exposing the underlying details of the collection's structure.
+
+
 Which one will take more memory, an int or Integer?
+  In Java, an Integer typically consumes more memory than an int.
+
+
 Why is String Immutable in Java?
 What is constructor chaining in Java?
 The difference between Serial and Parallel Garbage Collector?
