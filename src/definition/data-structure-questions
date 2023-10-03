@@ -1,10 +1,16 @@
 Please answer the below Data Structure Questions:
 
 why do we need data structure?
-A.
+A. We need data structures in computer science and programming for two main reasons, like
+   organization and efficient access. Data structures help us organize and manage data in a
+   structured way. They provide a way to store, manipulate, and retrieve data effectively.
 
 
 What are the various operations that can be performed on different Data Structures?
+  Different data structures support various operations, and the choice of data structure depends
+  on the specific operations you need to perform efficiently. LIke arrays, lists, stacks and queues.
+
+
 List out the areas in which data structures are applied extensively?
 what is an Array?
 what is the difference between the Array and ArrayList?

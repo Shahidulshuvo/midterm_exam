@@ -332,19 +332,78 @@ Why is String Immutable in Java?
 
 
 What is constructor chaining in Java?
-  Constructor chaining in Java refers to the process of one constructor calling another constructor in the same class or in its parent class (superclass). This allows you to reuse code and initialize objects more efficiently by avoiding code duplication
+  Constructor chaining in Java refers to the process of one constructor calling another constructor
+  in the same class or in its parent class. This allows you to reuse code and initialize objects more
+  efficiently by avoiding code duplication.
+
+
 The difference between Serial and Parallel Garbage Collector?
+  The Serial Garbage Collector performs garbage collection tasks sequentially in a single thread.
+  While The Parallel Garbage Collector uses multiple threads to perform garbage collection tasks in parallel.
+
+
 What is JIT stands for?
+  JIT stands for Just-In-Time. It is a production and inventory management system used in business
+  and manufacturing to minimize waste and optimize efficiency.
+
+
 Explain Java Heap space and Garbage collection?
+  Java heap space refers to a region of a computer's memory where Java objects are stored during the
+  execution of a Java program. The Java Virtual Machine allocates a portion of memory for the heap
+  when a Java application starts.
+  While garbage collection is a critical aspect of Java memory management. It is the process by which
+  the JVM automatically identifies and reclaims memory occupied by objects that are no longer reachable
+  or used by the program.
+
+
 Can you guarantee the garbage collection process?
+  No, I cannot guarantee the garbage collection process because it is a system-level process managed
+  by the programming language runtime or the underlying operating system, and it depends on various
+  factors and mechanisms.
+
+
 What is the difference between stack and heap in Java?
+  In Java, the stack and the heap are two different areas of memory used for different purposes. The stack
+  is a region of memory that is used for the execution of threads.
+  While the heap is a region of memory that is used for the dynamic allocation of objects at runtime.
+
+
 What is reflection in java and why is it useful?
+  In Java, reflection refers to the ability of a program to examine and manipulate its own structure,
+  classes, methods, fields, and objects at runtime. It allows to inspect and interact with the metadata
+  of classes and objects.  Reflection enables to load classes, create instances of classes, and invoke
+  methods on objects without knowing their types at compile time.
+
+
 what is multithreading in java?
+  In simple terms, multithreading in Java refers to the ability of a Java program to execute multiple
+  tasks or threads concurrently.
+
+
 What is the use of synchronization in Java?
+  synchronization in Java is used to control access to shared resources in a multi-threaded program.
+
+
 What is Framework?
+  A framework is a structured and reusable set of tools, libraries, guidelines, and conventions that provides a foundation for developing software applications.
+
+
 What are the testing Framework available in java?
+  In Java, there are several testing frameworks available to help developers write and execute tests
+  for their code.Like JUnit, TestNG, Mockito and so on.
+
+
 Difference between jUnit and testNG?
+  JUnit is a simpler and more straightforward choice for basic unit testing, while TestNG provides
+  more advanced features and greater flexibility, making it a better choice for complex test scenarios,
+  test management, and parallel test execution.
+
+
 What are the dependencies for this project?
+  Project dependencies refer to external libraries, modules, or software components that the project
+  relies on to function properly. These dependencies are pieces of code or functionality.
+
+
 what is dependency injection in java?
 What is static binding and dynamic binding?
 
