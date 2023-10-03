@@ -1,11 +1,6 @@
 package math.problems;
 
-import databases.ConnectToSqlDB;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
+import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -22,9 +17,9 @@ public class LowestNumber {
 		int lowestNumber = findLowestNumber(array);
 
 		// Store the values from the array in a list
-		List<Integer> numList = new ArrayList<>();
+		List<Integer> numberList = new ArrayList<>();
 		for (int num : array) {
-			numList.add(num);
+			numberList.add(num);
 		}
 
 		// Store the lowest number in the database
@@ -38,7 +33,7 @@ public class LowestNumber {
 		System.out.println("The values retrieved from the database are: " + retrievedNumberList);
 	}
 
-	private static int findLowestNumber(int[] array) {
+	static int findLowestNumber(int[] array) {
 		int lowestNumber = array[0]; // Initialize with the first element
 
 		for (int i = 1; i < array.length; i++) {
@@ -52,7 +47,7 @@ public class LowestNumber {
 
 	private static void storeLowestNumberInDatabase(int lowestNumber) {
 		// JDBC connection parameters
-		String jdbcUrl = "jdbc:mysql://localhost:3306/midterm";
+		String jdbcUrl = "jdbc:mysql://localhost:3306/automation";
 		String username = "root";
 		String password = "123456";
 
@@ -77,7 +72,7 @@ public class LowestNumber {
 
 	private static List<Integer> retrieveNumbersFromDatabase() {
 		// JDBC connection parameters
-		String jdbcUrl = "jdbc:mysql://localhost:3306/midterm";
+		String jdbcUrl = "jdbc:mysql://localhost:3306/automation";
 		String username = "root";
 		String password = "123456";
 

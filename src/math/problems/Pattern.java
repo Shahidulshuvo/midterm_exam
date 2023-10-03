@@ -17,7 +17,7 @@ public class Pattern {
 
 			// Add a comma and space until the last number
 			if (currentValue > 0) {
-				System.out.print(", ");
+				System.out.print("  ");
 			}
 
 			// define the pattern of the decrement

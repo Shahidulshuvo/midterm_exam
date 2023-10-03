@@ -235,6 +235,7 @@ Is JVM platform independent?
 
 
 What version of java are you using?
+  java version "11.0.19" 2023-04-18 LTS.
 
 
 What is JAR stand for ?
@@ -325,7 +326,13 @@ Which one will take more memory, an int or Integer?
 
 
 Why is String Immutable in Java?
+  In Java, strings are immutable for several important reasons. Like, since strings are often used
+  to store sensitive information like passwords or tokens, making them immutable helps ensure that once
+  a string is created, it cannot be changed.
+
+
 What is constructor chaining in Java?
+  Constructor chaining in Java refers to the process of one constructor calling another constructor in the same class or in its parent class (superclass). This allows you to reuse code and initialize objects more efficiently by avoiding code duplication
 The difference between Serial and Parallel Garbage Collector?
 What is JIT stands for?
 Explain Java Heap space and Garbage collection?
