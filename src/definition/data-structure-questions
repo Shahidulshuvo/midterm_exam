@@ -12,16 +12,64 @@ What are the various operations that can be performed on different Data Structur
 
 
 List out the areas in which data structures are applied extensively?
+  Data structures are used extensively in the following areas. Such as Computer Programming,
+  Databases, Operating Systems, Web Development and Networking etc.
+
+
 what is an Array?
+  An array is a data structure used in computer programming to store a collection of items
+  (such as numbers, words, or other values) in a single variable.
+
+
 what is the difference between the Array and ArrayList?
+  The main difference between an Array and an ArrayList is their flexibility and functionality.
+  An array is a fixed-size data structure that can hold elements of the same data type.
+  While An ArrayList is a dynamic and resizable data structure that can hold elements of any data type.
+
+
 what is LinkedList?
+  A linked list is a data structure used in computer science and programming for organizing and storing
+  a collection of elements, often referred to as node.
+
+
 How is an Array different from Linked List?
+  An array and a linked list are two common data structures, and they have some key differences.
+  An array is a contiguous block of memory where elements are stored in adjacent locations.
+  While A linked list consists of nodes where each node contains data and a reference to the next node
+  in the sequence.
+
+
 what is queue?
+  queue is a data structure that works like a line of people waiting for something. It follows the
+  first in, first out (FIFO) principle, which means that the first item added to the queue is the
+  first one to be removed.
+
+
 what is stack?
+  Stack is a data structure that works like a stack of items in the real world, such as a stack of plates.
+
+
 what is FIFO and LIFO?
+  FIFO (First-In, First-Out) is a method of inventory valuation that assumes that the first items (or units)
+  added to inventory are the first ones sold. While IFO is a method of inventory valuation that assumes that
+  the most recently acquired or produced items are the first ones sold.
+
+
 what is the order of complexity?
+  The order of complexity is a way to analyze and describe how the running time or resource usage of an
+  algorithm grows as the input size increases.
+
+
 what is the best case to search an element from an array?
+  The best-case scenario for searching an element in an array occurs when the element you're looking for is
+  located at the very beginning of the array.
+
+
 what is the worst case to search an element from an array?
+  the worst-case scenario for searching for an element in an array occurs when the element you're looking for is
+  not in the array, or it's located at the very end of the array.
+
+
 what is tree in data structure?
 what is graph in data structure?
 what is the difference between the HashTable and HashMap?
